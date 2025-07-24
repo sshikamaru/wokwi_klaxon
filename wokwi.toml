@@ -1,0 +1,14 @@
+[project]
+name = "Arduino Klaxon LCD"
+version = "0.1.0"
+
+[[components]]
+type = "wokwi-lcd2004"
+id = "lcd"
+addr = 0x27
+connections = [
+  ["GND", "GND"],
+  ["VCC", "5V"],
+  ["SDA", "A4"],
+  ["SCL", "A5"]
+]
