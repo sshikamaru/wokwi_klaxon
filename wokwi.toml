@@ -1,6 +1,7 @@
 [project]
 name = "Arduino Klaxon LCD"
 version = "0.1.0"
+projectId = "github:sshikamaru/wokwi_klaxon"
 
 [[components]]
 type = "wokwi-lcd2004"
